@@ -9,21 +9,21 @@ var mysql = require('mysql');
 //     port: 3306,
 // });
 
-const db = mysql.createConnection({
-    host:'keabuilderdb.cjibinp9bsxg.ap-south-1.rds.amazonaws.com',
-    user:'keaadmin',
-    password: 'A^uUI09FeMe',
-    database: 'keabuilder_db',
-    port: 3306,
-});
-
 // const db = mysql.createConnection({
-//     host:'localhost',
-//     user:'root',
-//     password: '',
-//     database: 'angular_db',
+//     host:'keabuilderdb.cjibinp9bsxg.ap-south-1.rds.amazonaws.com',
+//     user:'keaadmin',
+//     password: 'A^uUI09FeMe',
+//     database: 'keabuilder_db',
 //     port: 3306,
 // });
+
+const db = mysql.createConnection({
+    host:'localhost',
+    user:'root',
+    password: '',
+    database: 'angular_db',
+    port: 3306,
+});
 
 // check database connection
 
